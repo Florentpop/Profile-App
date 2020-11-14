@@ -15,27 +15,27 @@ export default function App() {
 
       <View style={styles.profileInfo}>
           <Text style={styles.greyInfo}>School</Text>
-          <Text style={{ fontSize: 17 }}>CodeTrain Ghana</Text>
+          <Text style={styles.text}>CodeTrain Ghana</Text>
         </View>
 
         <View style={styles.profileInfo}>
           <Text style={styles.greyInfo}>Email</Text>
-          <Text style={{ fontSize: 17 }}>danelrozar@gmail.com</Text>
+          <Text style={styles.text}>danelrozar@gmail.com</Text>
         </View>
 
         <View style={styles.profileInfo}>
           <Text style={styles.blueInfo}>Name</Text>
-          <Text style={{ fontSize: 17 }}>Daniel Rozar</Text>
+          <Text style={styles.text}>Daniel Rozar</Text>
         </View>
 
         <View style={styles.profileInfo}>
           <Text style={styles.blueInfo}>Nick Name</Text>
-          <Text style={{ fontSize: 17 }}>r.denial</Text>
+          <Text style={styles.text}>r.denial</Text>
         </View>
 
         <View style={styles.profileInfo}>
           <Text style={styles.blueInfo}>Emergency Contact</Text>
-          <Text style={{ fontSize: 17 }}>+1-987654321</Text>
+          <Text style={styles.text}>+1-987654321</Text>
         </View>
 
         <TouchableOpacity
@@ -81,6 +81,7 @@ const styles = StyleSheet.create({
   },
 
   button:{ 
+    marginHorizontal: 60,
     marginTop:30,
     backgroundColor: 'deepskyblue',
     padding: 10,
@@ -92,5 +93,9 @@ const styles = StyleSheet.create({
     color: 'white',
     textAlign:'center'
   },
+
+  text:{
+    fontSize: 17,
+  }
 
 });
