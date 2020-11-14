@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
   },
 
   image:{
-    marginTop:30,
+    marginTop:20,
     width:150,
     height:150,
     marginBottom:50,
@@ -65,7 +65,7 @@ const styles = StyleSheet.create({
   
   profileInfo: {
     marginHorizontal: 50,
-    marginBottom: 10,
+    marginBottom: 15,
     alignItems: "flex-start",
     borderBottomColor: "lightgrey",
     borderBottomWidth: 0.3,
@@ -74,10 +74,12 @@ const styles = StyleSheet.create({
 
   greyInfo: {
     color: "grey",
+    marginBottom: 5,
   },
 
   blueInfo: {
     color: "deepskyblue",
+    marginBottom: 5,
   },
 
   button:{ 
